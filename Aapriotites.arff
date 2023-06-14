@@ -1,0 +1,14 @@
+@relation Apriori-weka.filters.unsupervised.attribute.Remove-R1
+
+@attribute Milk {T,F}
+@attribute Butter {T,F}
+@attribute Bread {F,T}
+@attribute Beer {F,T}
+
+@data
+T,T,F,F
+F,T,T,F
+F,F,F,T
+T,T,T,F
+F,T,F,F
+T,F,T,F
